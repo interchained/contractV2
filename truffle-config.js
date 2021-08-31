@@ -63,7 +63,8 @@ module.exports = {
     COLLECTIONS:    false,
     MYSTERYBOX_V1:  false,
     Drops_V2:       false,
-    MineV3:         false
+    MineV3:         false,
+    test_Adapter:   true,
   },
 
   networks: {
@@ -110,15 +111,7 @@ module.exports = {
         return new HDWalletProvider(privKey, "https://mainnet.infura.io/v3/" + infuraId);
       },
       gas: 6000000,
-<<<<<<< HEAD
       gasPrice: 150000000000,
-=======
-<<<<<<< HEAD
-      gasPrice: 25000000000,
-=======
-      gasPrice: 40000000000,
->>>>>>> add curveSample&fix curveAdapter
->>>>>>> 9735f01 (add curveSample&fix curveAdapter)
       network_id: 1,
       skipDryRun: true
     },
